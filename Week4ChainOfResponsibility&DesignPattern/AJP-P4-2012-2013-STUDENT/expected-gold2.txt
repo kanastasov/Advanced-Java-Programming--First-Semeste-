@@ -1,0 +1,6 @@
+DB1: Powering up.
+DB1: Burrowing through the Martian regolith.
+DB1: Powering down.
+DB1: Powering up.
+DB1: Burrowing through the Martian regolith.
+DB1: Powering down.

@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!--
+	 The contents of this file are subject to the terms
+	 of the Common Development and Distribution License
+	 (the License).  You may not use this file except in
+	 compliance with the License.
+	 
+	 You can obtain a copy of the license at
+	 https://woodstock.dev.java.net/public/CDDLv1.0.html.
+	 See the License for the specific language governing
+	 permissions and limitations under the License.
+	 
+	 When distributing Covered Code, include this CDDL
+	 Header Notice in each file and include the License file
+	 at https://woodstock.dev.java.net/public/CDDLv1.0.html.
+	 If applicable, add the following below the CDDL Header,
+	 with the fields enclosed by brackets [] replaced by
+	 you own identifying information:
+	 "Portions Copyrighted [year] [name of copyright owner]"
+ 
+ 	Copyright 2007 Sun Microsystems, Inc. All rights reserved.
+-->
+
+<!DOCTYPE module PUBLIC
+    "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+    "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+
+<!--
+  	This configuration file is a subset of sun_checks.xml, the default config file shipped with CheckStyle.
+	Created by Mark Truran <m.a.truran@tees.ac.uk> on 24.8.2012
+
+	The rules referenced in this file are taken from: 
+
+    	- the Java Language Specification at http://java.sun.com/docs/books/jls/second_edition/html/index.html
+
+    	- the Sun Code Conventions at http://java.sun.com/docs/codeconv/
+
+    	- the Javadoc guidelines at http://java.sun.com/j2se/javadoc/writingdoccomments/index.html
+
+    	- the JDK Api documentation http://java.sun.com/j2se/docs/api/index.html
+
+    	- some best practices
+
+  	Be sure to read the documentation at http://checkstyle.sf.net
+
+
+
+	Revison 1 by Mark Truran <m.a.truran@tees.ac.uk> on 5.10.2012
+
+	Removed rules banning star imports and default constructors.
+
+-->
+
+<module name="Checker">
+
+    	<!-- Checks that a package-info.java file exists for each package in the project.     -->
+	<module name="JavadocPackage"/>
+
+    	<module name="TreeWalker">
+
+		<!-- Checks for Javadoc comments.                     -->
+		<!-- See http://checkstyle.sf.net/config_javadoc.html -->
+		<module name="JavadocMethod"/>
+		<module name="JavadocType"/>
+		<module name="JavadocVariable"/>
+		<module name="JavadocStyle"/>
+
+		 <!-- Checks for Naming Conventions.                  -->
+		<!-- See http://checkstyle.sf.net/config_naming.html -->
+		<module name="ConstantName"/>
+		<module name="LocalFinalVariableName"/>
+		<module name="LocalVariableName"/>
+		<module name="MemberName"/>
+		<module name="MethodName"/>
+		<module name="PackageName"/>
+		<module name="ParameterName"/>
+		<module name="StaticVariableName"/>
+		<module name="TypeName"/>
+
+		<!-- Checks for whitespace                               -->
+		<!-- See http://checkstyle.sf.net/config_whitespace.html -->
+		<module name="EmptyForIteratorPad">
+		    <property name="option" value="space" />
+		</module>
+		<module name="MethodParamPad"/>
+		<module name="NoWhitespaceAfter"/>
+		<module name="NoWhitespaceBefore"/>
+		<module name="OperatorWrap"/>
+		<module name="ParenPad"/>
+		<module name="TypecastParenPad"/>
+		<module name="WhitespaceAfter" />
+		<module name="WhitespaceAround"/>
+		<module name="GenericWhitespace"/>
+	
+		<!-- Checks for blocks. You know, those {}'s         -->
+		<!-- See http://checkstyle.sf.net/config_blocks.html -->
+		<module name="EmptyBlock"/>
+		<module name="LeftCurly"/>
+		<module name="NeedBraces"/>
+		<module name="RightCurly"/>
+		<module name="NeedBraces"/>
+
+		<!-- Checks for common coding problems               -->
+		<!-- See http://checkstyle.sf.net/config_coding.html -->
+		<module name="MagicNumber"/>
+		<module name="MissingSwitchDefault"/>
+	 
+		<!-- Checks for class design                         -->
+		<!-- See http://checkstyle.sf.net/config_design.html -->
+		<module name="DeclarationOrder">
+			<property name="ignoreModifiers" value="true"/>
+		</module>
+
+	      	  <!-- Miscellaneous other checks.                   -->
+		<!-- See http://checkstyle.sf.net/config_misc.html -->
+		<module name="ArrayTypeStyle"/>
+		<module name="FinalLocalVariable"/>
+		<module name="IllegalCatch"/>
+    	</module>
+
+</module>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="kAnastasov" name="uk.ac.tees.L1087591.LargePizzaTest" tests="1" time="0.114" timestamp="2012-11-30T17:23:40">
+  <properties>
+    <property name="netbeans.autoupdate.country" value="US" />
+    <property name="nb.wait.for.caches" value="true" />
+    <property name="javac.test.classpath" value=":build/classes:C:\Users\Anastasov\AppData\Roaming\NetBeans\7.2.1\modules\ext\junit-4.10.jar" />
+    <property name="libs.junit.javadoc" value="C:\Users\Anastasov\AppData\Roaming\NetBeans\7.2.1\docs\junit-3.8.2-api.zip" />
+    <property name="ant.core.lib" value="C:\Program Files\NetBeans 7.2.1\java\ant\lib\ant.jar" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="user.dir" value="C:\Users\Anastasov\Desktop\Dropbox\Tees\Year2\java\Semerster 1\Week2Interfaces&amp;Static\AJP-P1-2012-2013-STUDENT" />
+    <property name="libs.hibernate-persistence.javadoc" value="" />
+    <property name="java.vm.version" value="22.0-b10" />
+    <property name="libs.MySQLDriver.classpath" value="C:\Program Files\NetBeans 7.2.1\ide\modules\ext\mysql-connector-java-5.1.18-bin.jar" />
+    <property name="libs.eclipselinkmodelgen.src" value="" />
+    <property name="javadoc.notree" value="false" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="libs.hibernate-support.maven-pom" value="" />
+    <property name="libs.hibernate-support.javadoc" value="" />
+    <property name="jdk.home" value="C:\Program Files\Java\jdk1.7.0_02\this" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="do.archive+manifest.available" value="true" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="have.tests" value="true" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="os.name" value="Windows 7" />
+    <property name="libs.beans-binding.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\beansbinding-1.2.1.jar" />
+    <property name="ap.proc.none.internal" value="" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="jnlp.signing.keystore" value="" />
+    <property name="libs.testng.src" value="" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="libs.jaxb.maven-pom" value="" />
+    <property name="os.arch" value="amd64" />
+    <property name="libs.eclipselink.src" value="" />
+    <property name="user.name" value="Anastasov" />
+    <property name="copylibs.rebase" value="true" />
+    <property name="libs.swing-layout.maven-pom" value="" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner uk.ac.tees.L1087591.LargePizzaTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Anastasov\Desktop\Dropbox\Tees\Year2\java\Semerster 1\Week2Interfaces&amp;Static\AJP-P1-2012-2013-STUDENT\build\test\results\TEST-uk.ac.tees.L1087591.LargePizzaTest.xml crashfile=C:\Users\Anastasov\Desktop\Dropbox\Tees\Year2\java\Semerster 1\Week2Interfaces&amp;Static\AJP-P1-2012-2013-STUDENT\build\junitvmwatcher4628010450002342642.properties propsfile=C:\Users\Anastasov\Desktop\Dropbox\Tees\Year2\java\Semerster 1\Week2Interfaces&amp;Static\AJP-P1-2012-2013-STUDENT\build\junit7676770006661947740.properties" />
+    <property name="build.classes.dir" value="build/classes" />
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
+    <property name="jnlp.descriptor" value="application" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="ap.supported.internal" value="true" />
+    <property name="libs.jaxws21.javadoc" value="C:\Program Files\NetBeans 7.2.1\java\docs\jaxws-api-doc.zip" />
+    <property name="includes" value="**" />
+    <property name="user.country" value="US" />
+    <property name="manifest.file" value="manifest.mf" />
+    <property name="javadoc.encoding" value="UTF-8" />
+    <property name="javac.classpath" value="" />
+    <property name="debug-transport" value="dt_shmem" />
+    <property name="netbeans.home" value="C:\Program Files\NetBeans 7.2.1\platform" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="libs.ejb3-persistence.src" value="" />
+    <property name="ant.file.type.AJP-P1-2012-2013-STUDENT" value="file" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_02\this\jre\lib\endorsed" />
+    <property name="netbeans.dynamic.classpath" value="C:\Program Files\NetBeans 7.2.1\platform\core\core.jar;C:\Program Files\NetBeans 7.2.1\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\core_ja.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\core_pt_BR.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\core_ru.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\core_zh_CN.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\org-openide-filesystems_ru.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\Program Files\NetBeans 7.2.1\nb\core\org-netbeans-upgrader.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\core_nb.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\core_nb_ja.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\core_nb_pt_BR.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\core_nb_ru.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\core_nb_zh_CN.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\org-netbeans-upgrader_ja.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\org-netbeans-upgrader_ru.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\org-netbeans-upgrader_zh_CN.jar" />
+    <property name="jnlp.enabled" value="false" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="netbeans.productversion" value="NetBeans IDE 7.2.1 (Build 201210100934)" />
+    <property name="libs.hibernate-persistence.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\antlr-2.7.6.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\asm.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\asm-attrs.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\cglib-2.1.3.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\commons-collections-2.1.1.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\dom4j-1.6.1.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\ehcache-1.2.3.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\jdbc2_0-stdext.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\jta.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate3.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-tools.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-annotations.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-commons-annotations.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-entitymanager.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\javassist.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\ejb3-persistence.jar" />
+    <property name="libs.jaxws21.src" value="" />
+    <property name="application.title" value="AJP-P1-2012-2013-STUDENT" />
+    <property name="do.archive" value="true" />
+    <property name="ant.file.AJP-P1-2012-2013-STUDENT-impl" value="C:\Users\Anastasov\Desktop\Dropbox\Tees\Year2\java\Semerster 1\Week2Interfaces&amp;Static\AJP-P1-2012-2013-STUDENT\nbproject\build-impl.xml" />
+    <property name="netbeans.autoupdate.language" value="en" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="jar.index.metainf" value="false" />
+    <property name="javac.debug" value="true" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="file.separator" value="\" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="mkdist.disabled" value="false" />
+    <property name="javac.test.processorpath" value=":build/classes:C:\Users\Anastasov\AppData\Roaming\NetBeans\7.2.1\modules\ext\junit-4.10.jar" />
+    <property name="netbeans.buildnumber" value="201210100934" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="build.generated.sources.dir" value="build/generated-sources" />
+    <property name="user.variant" value="" />
+    <property name="libs.eclipselinkmodelgen.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.modelgen.processor-2.3.2.jar" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="libs.junit.classpath" value="C:\Users\Anastasov\AppData\Roaming\NetBeans\7.2.1\modules\ext\junit-3.8.2.jar" />
+    <property name="libs.jaxb.javadoc" value="C:\Program Files\NetBeans 7.2.1\ide\docs\jaxb-api-doc.zip" />
+    <property name="ant.home" value="C:\Program Files\NetBeans 7.2.1\java\ant" />
+    <property name="libs.junit_4.src" value="C:\Users\Anastasov\AppData\Roaming\NetBeans\7.2.1\docs\junit-4.10-sources.jar" />
+    <property name="libs.testng.classpath" value="C:\Program Files\NetBeans 7.2.1\platform\modules\ext\testng-6.5.1-dist.jar" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_02\this\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32;C:\Program Files\Java\jdk1.7.0_02\this\bin;C:\Program Files\MySQL\MySQL Server 5.0\bin;C:\Program Files (x86)\scala\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Anastasov\AppData\Local\Android\android-sdk\tools;C:\Users\Anastasov\AppData\Local\Android\android-sdk\platform-tools;C:\Program Files (x86)\Steel Bank Common Lisp\1.0.55\;C:\Ruby193\bin;." />
+    <property name="javadoc.author" value="false" />
+    <property name="manifest.available+main.class-mkdist.available" value="true" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="basedir" value="C:\Users\Anastasov\Desktop\Dropbox\Tees\Year2\java\Semerster 1\Week2Interfaces&amp;Static\AJP-P1-2012-2013-STUDENT" />
+    <property name="libs.jpa20-persistence.maven-pom" value="" />
+    <property name="jar.compress" value="false" />
+    <property name="path.separator" value=";" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="libs.jaxws21.classpath" value="C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\FastInfoset.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\gmbal-api-only.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\ha-api.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\javax.mail_1.4.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\jaxws-rt.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\jaxws-tools.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\management-api.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\mimepull.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\policy.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\saaj-impl.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\stax-ex.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\stax2-api.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\streambuffer.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\woodstox-core-asl.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\api\jaxws-api.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\api\jsr181-api.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\api\javax.annotation.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\api\saaj-api.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
+    <property name="compile.on.save" value="true" />
+    <property name="apple.awt.graphics.UseQuartz" value="true" />
+    <property name="user.language" value="en" />
+    <property name="testng.mode" value="testng" />
+    <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
+    <property name="libs.spring-framework.classpath" value="C:\Program Files\NetBeans 7.2.1\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring\spring-2.5.6.SEC03.jar" />
+    <property name="libs.eclipselink.maven-pom" value="" />
+    <property name="application.vendor" value="Anastasov" />
+    <property name="manifest.available" value="true" />
+    <property name="libs.spring-framework300.maven-pom" value="" />
+    <property name="run.test.classpath" value=":build/classes:C:\Users\Anastasov\AppData\Roaming\NetBeans\7.2.1\modules\ext\junit-4.10.jar:build/test/classes" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="ant.file.AJP-P1-2012-2013-STUDENT" value="C:\Users\Anastasov\Desktop\Dropbox\Tees\Year2\java\Semerster 1\Week2Interfaces&amp;Static\AJP-P1-2012-2013-STUDENT\build.xml" />
+    <property name="libs.swing-layout.javadoc" value="C:\Program Files\NetBeans 7.2.1\platform\docs\swing-layout-1.0.4-doc.zip" />
+    <property name="libs.ejb3-persistence.maven-pom" value="" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="java.class.version" value="51.0" />
+    <property name="netbeans.system_http_proxy" value="DIRECT" />
+    <property name="libs.eclipselink.javadoc" value="" />
+    <property name="user.properties.file" value="C:\Users\Anastasov\AppData\Roaming\NetBeans\7.2.1\build.properties" />
+    <property name="runtime.encoding" value="UTF-8" />
+    <property name="libs.spring-framework.src" value="" />
+    <property name="libs.javac-api.maven-pom" value="" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="libs.JAXB-ENDORSED.javadoc" value="" />
+    <property name="libs.JWSAntTasks.classpath" value="C:\Program Files\NetBeans 7.2.1\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="libs.spring-framework300.src" value="" />
+    <property name="empty.dir" value="C:\Users\Anastasov\Desktop\Dropbox\Tees\Year2\java\Semerster 1\Week2Interfaces&amp;Static\AJP-P1-2012-2013-STUDENT\build\empty" />
+    <property name="version-output" value="java version &quot;1.7" />
+    <property name="javadoc.preview" value="true" />
+    <property name="libs.jpa20-persistence.javadoc" value="" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_02\this\jre" />
+    <property name="debug.test.classpath" value=":build/classes:C:\Users\Anastasov\AppData\Roaming\NetBeans\7.2.1\modules\ext\junit-4.10.jar:build/test/classes" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="ant.project.default-target" value="default" />
+    <property name="annotation.processing.run.all.processors" value="true" />
+    <property name="jar.archive.disabled" value="false" />
+    <property name="jnlp.signing.alias" value="" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="libs.MySQLDriver.maven-pom" value="" />
+    <property name="libs.junit_4.javadoc" value="C:\Users\Anastasov\AppData\Roaming\NetBeans\7.2.1\docs\junit-4.10-javadoc.jar" />
+    <property name="run.classpath" value=":build/classes" />
+    <property name="libs.hibernate-support.src" value="" />
+    <property name="jna.boot.library.name" value="jnidispatch-340" />
+    <property name="annotation.processing.enabled.in.editor" value="false" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="javac.deprecation" value="false" />
+    <property name="javadoc.use" value="true" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="javac.processorpath" value="" />
+    <property name="javac.compilerargs" value="" />
+    <property name="ant.file" value="C:\Users\Anastasov\Desktop\Dropbox\Tees\Year2\java\Semerster 1\Week2Interfaces&amp;Static\AJP-P1-2012-2013-STUDENT\build.xml" />
+    <property name="libs.beans-binding.maven-pom" value="" />
+    <property name="jnlp.codebase.type" value="no.codebase" />
+    <property name="libs.beans-binding.src" value="" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="libs.swing-layout.src" value="C:\Program Files\NetBeans 7.2.1\platform\docs\swing-layout-1.0.4-src.zip" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="netbeans.user" value="C:\Users\Anastasov\AppData\Roaming\NetBeans\7.2.1" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="jnlp.offline-allowed" value="false" />
+    <property name="java.io.tmpdir" value="C:\Users\ANASTA~1\AppData\Local\Temp\" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="endorsed.classpath.cmd.line.arg" value="" />
+    <property name="junit.available" value="true" />
+    <property name="ant.file.type.AJP-P1-2012-2013-STUDENT-impl" value="file" />
+    <property name="org.openide.awt.ActionReference.completion" value="org.netbeans.modules.apisupport.project.layers.PathCompletions" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_02\this\jre\bin" />
+    <property name="have.sources" value="true" />
+    <property name="debug.classpath" value=":build/classes" />
+    <property name="javadoc.private" value="false" />
+    <property name="test.src.dir" value="test" />
+    <property name="ap.processors.internal" value="" />
+    <property name="meta.inf.dir" value="src/META-INF" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="dist.jar" value="dist/AJP-P1-2012-2013-STUDENT.jar" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.project.name" value="AJP-P1-2012-2013-STUDENT" />
+    <property name="netbeans.hash.code" value="unique=NB_JAVA085453ec5-0ba8-40c9-a0cb-da55f738d2d4_97f20d10-4580-4874-92fb-0264ff61c8e0" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\Anastasov\AppData\Roaming\NetBeans" />
+    <property name="manifest.available-mkdist.available" value="true" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="libs.hibernate-support.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\antlr-2.7.6.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\asm.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\asm-attrs.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\cglib-2.1.3.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\commons-collections-2.1.1.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\dom4j-1.6.1.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\ehcache-1.2.3.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\jdbc2_0-stdext.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\jta.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate3.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-tools.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-annotations.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-commons-annotations.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-entitymanager.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\javassist.jar" />
+    <property name="user.home" value="C:\Users\Anastasov" />
+    <property name="annotation.processing.processors.list" value="" />
+    <property name="debug-args-line" value="-Xdebug" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="jar.index" value="false" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="libs.spring-framework300.javadoc" value="" />
+    <property name="libs.hibernate-persistence.maven-pom" value="" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="jnlp.mixed.code" value="default" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="libs.javac-api.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\nb-javac-api.jar" />
+    <property name="java.version" value="1.7.0_02" />
+    <property name="run.jvmargs.ide" value="" />
+    <property name="javadoc.version" value="false" />
+    <property name="libs.MySQLDriver.javadoc" value="" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="source.encoding" value="UTF-8" />
+    <property name="ap.cmd.line.internal" value="" />
+    <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
+    <property name="libs.junit.maven-pom" value="" />
+    <property name="libs.eclipselinkmodelgen.javadoc" value="" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="annotation.processing.processor.options" value="" />
+    <property name="libs.testng.maven-pom" value="" />
+    <property name="libs.jaxb.src" value="" />
+    <property name="work.dir" value="C:\Users\Anastasov\Desktop\Dropbox\Tees\Year2\java\Semerster 1\Week2Interfaces&amp;Static\AJP-P1-2012-2013-STUDENT" />
+    <property name="libs.jaxb.classpath" value="C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
+    <property name="do.depend" value="false" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="libs.swing-layout.classpath" value="C:\Program Files\NetBeans 7.2.1\platform\modules\ext\swing-layout-1.0.4.jar" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="javac.source" value="1.7" />
+    <property name="libs.hibernate-persistence.src" value="" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="nb.junit.batch" value="true" />
+    <property name="junit.forkmode" value="perTest" />
+    <property name="libs.spring-framework.maven-pom" value="" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_02\this\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_02\this\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_02\this\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_02\this\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_02\this\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_02\this\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_02\this\jre\classes" />
+    <property name="javac.target" value="1.7" />
+    <property name="built-jar.properties" value="C:\Users\Anastasov\Desktop\Dropbox\Tees\Year2\java\Semerster 1\Week2Interfaces&amp;Static\AJP-P1-2012-2013-STUDENT\build\built-jar.properties" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="src.dir" value="src" />
+    <property name="annotation.processing.enabled" value="true" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="libs.jpa20-persistence.src" value="" />
+    <property name="ignore.failing.tests" value="true" />
+    <property name="dist.dir" value="dist" />
+    <property name="testng.debug.mode" value="" />
+    <property name="javac.fork" value="false" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="default.javac.source" value="1.7" />
+    <property name="debug-transport-by-os" value="dt_shmem" />
+    <property name="libs.MySQLDriver.src" value="" />
+    <property name="sun.jnu.encoding" value="Cp1251" />
+    <property name="java.runtime.version" value="1.7.0_02-b13" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="libs.ejb3-persistence.javadoc" value="" />
+    <property name="default.javac.target" value="1.7" />
+    <property name="libs.junit_4.classpath" value="C:\Users\Anastasov\AppData\Roaming\NetBeans\7.2.1\modules\ext\junit-4.10.jar" />
+    <property name="user.timezone" value="" />
+    <property name="nb.junit.single" value="false" />
+    <property name="do.jar" value="true" />
+    <property name="netbeans.dirs" value="C:\Program Files\NetBeans 7.2.1\nb;C:\Program Files\NetBeans 7.2.1\ergonomics;C:\Program Files\NetBeans 7.2.1\ide;C:\Program Files\NetBeans 7.2.1\java;C:\Program Files\NetBeans 7.2.1\apisupport;C:\Program Files\NetBeans 7.2.1\webcommon;C:\Program Files\NetBeans 7.2.1\websvccommon;C:\Program Files\NetBeans 7.2.1\enterprise;C:\Program Files\NetBeans 7.2.1\mobility;C:\Program Files\NetBeans 7.2.1\profiler;C:\Program Files\NetBeans 7.2.1\python;C:\Program Files\NetBeans 7.2.1\php;C:\Program Files\NetBeans 7.2.1\identity;C:\Program Files\NetBeans 7.2.1\harness;C:\Program Files\NetBeans 7.2.1\cnd;C:\Program Files\NetBeans 7.2.1\dlight;C:\Program Files\NetBeans 7.2.1\groovy;C:\Program Files\NetBeans 7.2.1\extra;C:\Program Files\NetBeans 7.2.1\javacard;C:\Program Files\NetBeans 7.2.1\javafx" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_02\this\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="endorsed.classpath" value="" />
+    <property name="libs.absolutelayout.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\AbsoluteLayout.jar" />
+    <property name="excludes" value="" />
+    <property name="java.class.path" value="C:\Users\Anastasov\Desktop\Dropbox\Tees\Year2\java\Semerster 1\Week2Interfaces&amp;Static\AJP-P1-2012-2013-STUDENT\build\classes;C:\Users\Anastasov\AppData\Roaming\NetBeans\7.2.1\modules\ext\junit-4.10.jar;C:\Users\Anastasov\Desktop\Dropbox\Tees\Year2\java\Semerster 1\Week2Interfaces&amp;Static\AJP-P1-2012-2013-STUDENT\build\test\classes;C:\Program Files\NetBeans 7.2.1\java\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 7.2.1\java\ant\lib\ant.jar;C:\Program Files\NetBeans 7.2.1\java\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 7.2.1\java\ant\lib\ant-junit4.jar" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="do.mkdist" value="true" />
+    <property name="libs.absolutelayout.src" value="" />
+    <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\eclipselink\javax.persistence-2.0.3.jar" />
+    <property name="os.version" value="6.1" />
+    <property name="application.args" value="" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="sun.desktop" value="windows" />
+    <property name="libs.JAXB-ENDORSED.classpath" value="C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="libs.eclipselink.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\eclipselink\eclipselink-2.3.2.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\eclipselink\javax.persistence-2.0.3.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql_1.0.1.jar" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="libs.beans-binding.javadoc" value="C:\Program Files\NetBeans 7.2.1\java\docs\beansbinding-1.2.1-doc.zip" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="libs.CopyLibs.classpath" value="C:\Program Files\NetBeans 7.2.1\java\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans 7.2.1\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-aop-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-asm-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-aspects-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-beans-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-context-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-context-support-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-core-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-expression-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-instrument-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-jdbc-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-jms-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-orm-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-oxm-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-test-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-tx-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-web-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-webmvc-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-struts-3.1.1.RELEASE.jar" />
+    <property name="run.jvmargs" value="" />
+    <property name="libs.ejb3-persistence.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\ejb3-persistence.jar" />
+    <property name="libs.spring-framework.javadoc" value="" />
+    <property name="libs.JAXB-ENDORSED.src" value="" />
+    <property name="libs.testng.javadoc" value="C:\Program Files\NetBeans 7.2.1\platform\docs\testng-6.5.1-javadoc.zip" />
+    <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files\NetBeans 7.2.1\ide\modules\ext\postgresql-9.1-901.jdbc4.jar" />
+    <property name="user.script" value="" />
+    <property name="jnlp.signing" value="" />
+    <property name="libs.junit.src" value="" />
+    <property name="jnlp.signed" value="false" />
+    <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
+    <property name="main.class" value="" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="build.dir" value="build" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.3 compiled on February 26 2012" />
+    <property name="file.encoding" value="Cp1251" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="jdkBug6558476" value="false" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="platform.active" value="default_platform" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+  </properties>
+  <testcase classname="uk.ac.tees.L1087591.LargePizzaTest" name="testToString" time="0.004" />
+  <system-out><![CDATA[Check toString output in LargePizza
+A pizza (15 inches) with sausage and bacon and a cheese crust, deep-pan
+A pizza (15 inches) with sausage and bacon and a cheese crust, deep-pan
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

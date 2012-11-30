@@ -1,0 +1,14 @@
+Life support error. Oxygen Recycling unit damaged, running at half efficiency---> Captain assigned to problem.
+
+Communications error. Cannot find Jazz FM---> Service robot assigned to problem.
+
+Power supply error. Solar Panel 2 damaged, running at 31.3333% efficiency---> Engineer assigned to problem.
+
+Thermal regulation error. Sensor damaged, manual temperature regulation needed---> Engineer assigned to problem.
+
+Trash can full on C-Desk.---> Space monkey assigned to problem.
+
+Shower plug hole full of monkey hair---> Service robot assigned to problem.
+
+Proximity alert. Collision imminent---> Captain assigned to problem.
+

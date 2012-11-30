@@ -1,0 +1,18 @@
+DB1: Powering up.
+DB1: Burrowing through the Martian regolith.
+DB1: Powering down.
+SC1: Powering up.
+SC1: Scanning local terrain for water.
+SC1: Powering down.
+AR1: Powering up.
+AR1: Flying through the thin Martian atmosphere.
+AR1: Powering down.
+SC2: Powering up.
+SC2: Scanning local terrain for water.
+SC2: Powering down.
+AR2: Powering up.
+AR2: Flying through the thin Martian atmosphere.
+AR2: Powering down.
+DB2: Powering up.
+DB2: Burrowing through the Martian regolith.
+DB2: Powering down.
