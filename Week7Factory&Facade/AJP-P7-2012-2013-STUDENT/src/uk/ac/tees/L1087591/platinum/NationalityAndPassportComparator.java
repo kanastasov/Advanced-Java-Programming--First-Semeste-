@@ -153,10 +153,26 @@ public class NationalityAndPassportComparator implements Comparator<Passenger> {
 public static Comparator<NationalityAndPassportComparator> nationalityComparator 
                           = new Comparator<NationalityAndPassportComparator>() {
                               
+                              @Override
 	    public int compare(NationalityAndPassportComparator firstNationality1,
                     NationalityAndPassportComparator secondNationality2) {
 	    final String nationality1 = firstNationality1.nt.toString().toUpperCase();
 	    final String nationality2  = secondNationality2.nt.toString().toUpperCase();
+            
+            
+            final int pass1 = firstNationality1.passportNumber;
+            final int pass2 = secondNationality2.passportNumber;
+            
+            //sort by passport number
+            if (nationality1.equals(nationality2)) {
+                if (pass1 > pass2) {
+                    return 1;
+                } else if (pass1 == pass2) {
+                    return 0;
+                } else {
+                     return -1;   
+                }
+            }
 	    //ascending order
 	    return nationality1.compareTo(nationality2);
  
@@ -170,7 +186,10 @@ public static Comparator<NationalityAndPassportComparator> nationalityComparator
 
     @Override
     public int compare(Passenger o1, Passenger o2) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        if (o1.getPassportNumber() > o2.getPassportNumber()) {
+            return o1.getPassportNumber(); 
+        }
+            return o2.getPassportNumber(); 
     }
               
  }

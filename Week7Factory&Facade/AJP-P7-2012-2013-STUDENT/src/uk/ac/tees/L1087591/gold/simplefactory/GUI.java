@@ -177,10 +177,16 @@ public class GUI extends JPanel implements ActionListener {
                 if (cf.getComputer(unitToInteger) == null) {
                     quote.setText("No such computers in that price range:");
                      img[0].setIcon(image[0]);
+                     
+//                     System.exit(0);
+                     return;
+//                     cf.getComputer(unitToInteger) == 200;
+                     
                 }
                 System.out.println(cf.getComputer(unitToInteger));
                 String ts = "";
-                ts = cf.getComputer(unitToInteger).toString();
+                    ts = cf.getComputer(unitToInteger).toString();
+                
                 
                 System.out.println("******" + ts);
                 

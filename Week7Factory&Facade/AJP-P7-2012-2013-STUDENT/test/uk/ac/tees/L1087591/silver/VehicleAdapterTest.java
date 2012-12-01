@@ -33,7 +33,7 @@ public class VehicleAdapterTest {
     public void testGetDestination() {
         final int capacity = 180;
         final int emptySeats = 6;
-        final Vehicle vehicle = new HL777b("BERLIN-NICE", capacity, emptySeats);
+        final Vehicle vehicle = new HL777b("NICE-BERLIN", capacity, emptySeats);
         final Plane plane = new VehicleAdapter(vehicle);
         assertEquals(plane.getDestination(), "nice");
         System.out.println("Destination test OK");

@@ -206,6 +206,7 @@ public class GUI extends JPanel implements ActionListener {
                     if (acf.getComputer(unitToInteger) == null) {
                         quote.setText("No such computers in that price range:");
                         img[0].setIcon(image[0]);
+                         return;
                     }
                     System.out.println(acf.getComputer(unitToInteger));
                     ts = acf.getComputer(unitToInteger).toString();
@@ -216,6 +217,7 @@ public class GUI extends JPanel implements ActionListener {
                     if (acf.getComputer(unitToInteger) == null) {
                         quote.setText("No such computers in that price range:");
                         img[0].setIcon(image[0]);
+                         return;
                     }
                     System.out.println(acf.getComputer(unitToInteger));
                     bcf = "";

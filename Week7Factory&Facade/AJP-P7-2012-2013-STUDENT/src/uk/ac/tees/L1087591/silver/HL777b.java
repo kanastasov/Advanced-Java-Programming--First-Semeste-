@@ -10,7 +10,7 @@ public class HL777b implements Vehicle {
     /**
      * @param flightPlan converts the plan of the flight
      */
-   String flightPlan;
+    String flightPlan;
    
    /**
     * @param capacity stores the capacity of the passengers on a flight.
@@ -41,19 +41,31 @@ public class HL777b implements Vehicle {
         this.emptySeats = emptySeats;
     }
 
-   
+    public  String getFlightPlan() {
+        return flightPlan;
+    }
+
+    public void setFlightPlan(String flightPlan) {
+        this.flightPlan = flightPlan;
+    }
+
+//     VehicleAdapter obj = new VehicleAdapter(this);
+     
     @Override
     public String gerFlightPlan() {
-        System.out.println("*****" + count);
-        final String[] splits = flightPlan.split("-");
-            for (String asset : splits) {
-                  flightPlan = asset;
-                  if (count % 2 == 0) {
-                          break;
-                  }
-            }
-            count++;
+//        System.out.println("*****" + count);
+//        final String[] splits = flightPlan.split("-");
+//            for (String asset : splits) {
+//                  flightPlan = asset;
+//                  if (count % 2 == 0) {
+//                          break;
+//                  }
+//                  break;
+//            }
+//            count++;
       return flightPlan.toLowerCase();
+//        return obj.gerFlightPlan();
+      
     }
 
     @Override
